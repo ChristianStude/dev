@@ -1,4 +1,4 @@
-n = input("Bitte eine Zahl eingeben.")
+n = int(input("Bitte eine Zahl eingeben."))
 
 while n > 0:
     print("Quadrat von", n, "ist", n ** 2 )
@@ -6,4 +6,4 @@ while n > 0:
     if n == 5:
         break
 else:
-    print:("while else?")
+    print:("Ende")
