@@ -8,12 +8,27 @@ b = random.randint(1, 10)
 c = a + b
 print("Die Aufgabe lautet:", a, "+", b)
 
-# Schleife mit range
-for versuch in range(1, 10):
+# Schleife uns Anzahl initialisieren
+zahl = c + 1
+versuch = 0
+
+# Schleife mit while
+while zahl != c:
+    # Anzahl Versuche
+    versuch = versuch + 1
+
     # Eingabe
     print("Bitte geben Sie eine Zahl ein!")
     z = input()
-    zahl = int(z)
+    
+    # Versuch einer Umwandlung
+    try:
+        zahl = int(z)
+    except:
+        # Falls Umwandlung nicht erfolgreich
+        print("Sie heben keine ganze Zahl eingegeben")
+        # Schleife unmittelbar fortsetzen
+        continue
 
     # Verzweigung
     if zahl == c:
