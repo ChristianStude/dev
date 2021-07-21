@@ -5,7 +5,7 @@
 # 1 2
 # 1
 
-for zeile in range(5, 0, -1):
+for zeile in range(10, 0, -1):
     for spalte in range(1, zeile + 1):
-        print(f"{spalte:2d}", end="")
+        print(f"{spalte:3d}", end="")
     print()
