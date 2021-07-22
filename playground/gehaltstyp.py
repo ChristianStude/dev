@@ -15,5 +15,5 @@ while 1 == 1:
         print("Herzlichen Glückwunsch, Sie sind ein Spitzenverdiener.")
     else:
         print("keine Ahnung")
-    input("Bitte Taste drücken")
+    input("Zum fortsetzen bitte die Enter-Taste drücken")
     
